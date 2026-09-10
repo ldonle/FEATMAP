@@ -1,0 +1,1281 @@
+{
+  "version": "0.1",
+  "transformations": [
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "at2",
+      "target_scanner": "gt450",
+      "filename": "scanner_conch_at2_to_gt450.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "at2",
+      "target_scanner": "vs200",
+      "filename": "scanner_conch_at2_to_vs200.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "at2",
+      "target_scanner": "ocus40",
+      "filename": "scanner_conch_at2_to_ocus40.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "gt450",
+      "target_scanner": "at2",
+      "filename": "scanner_conch_gt450_to_at2.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "gt450",
+      "target_scanner": "vs200",
+      "filename": "scanner_conch_gt450_to_vs200.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "gt450",
+      "target_scanner": "ocus40",
+      "filename": "scanner_conch_gt450_to_ocus40.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "vs200",
+      "target_scanner": "at2",
+      "filename": "scanner_conch_vs200_to_at2.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "vs200",
+      "target_scanner": "gt450",
+      "filename": "scanner_conch_vs200_to_gt450.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "vs200",
+      "target_scanner": "ocus40",
+      "filename": "scanner_conch_vs200_to_ocus40.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "ocus40",
+      "target_scanner": "at2",
+      "filename": "scanner_conch_ocus40_to_at2.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "ocus40",
+      "target_scanner": "gt450",
+      "filename": "scanner_conch_ocus40_to_gt450.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "conch",
+      "source_scanner": "ocus40",
+      "target_scanner": "vs200",
+      "filename": "scanner_conch_ocus40_to_vs200.pt",
+      "input_dim": 512,
+      "output_dim": 512
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "at2",
+      "target_scanner": "gt450",
+      "filename": "scanner_uni_at2_to_gt450.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "at2",
+      "target_scanner": "vs200",
+      "filename": "scanner_uni_at2_to_vs200.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "at2",
+      "target_scanner": "ocus40",
+      "filename": "scanner_uni_at2_to_ocus40.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "gt450",
+      "target_scanner": "at2",
+      "filename": "scanner_uni_gt450_to_at2.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "gt450",
+      "target_scanner": "vs200",
+      "filename": "scanner_uni_gt450_to_vs200.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "gt450",
+      "target_scanner": "ocus40",
+      "filename": "scanner_uni_gt450_to_ocus40.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "vs200",
+      "target_scanner": "at2",
+      "filename": "scanner_uni_vs200_to_at2.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "vs200",
+      "target_scanner": "gt450",
+      "filename": "scanner_uni_vs200_to_gt450.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "vs200",
+      "target_scanner": "ocus40",
+      "filename": "scanner_uni_vs200_to_ocus40.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "ocus40",
+      "target_scanner": "at2",
+      "filename": "scanner_uni_ocus40_to_at2.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "ocus40",
+      "target_scanner": "gt450",
+      "filename": "scanner_uni_ocus40_to_gt450.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "uni",
+      "source_scanner": "ocus40",
+      "target_scanner": "vs200",
+      "filename": "scanner_uni_ocus40_to_vs200.pt",
+      "input_dim": 1024,
+      "output_dim": 1024
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "at2",
+      "target_scanner": "gt450",
+      "filename": "scanner_virchow2_at2_to_gt450.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "at2",
+      "target_scanner": "vs200",
+      "filename": "scanner_virchow2_at2_to_vs200.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "at2",
+      "target_scanner": "ocus40",
+      "filename": "scanner_virchow2_at2_to_ocus40.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "gt450",
+      "target_scanner": "at2",
+      "filename": "scanner_virchow2_gt450_to_at2.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "gt450",
+      "target_scanner": "vs200",
+      "filename": "scanner_virchow2_gt450_to_vs200.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "gt450",
+      "target_scanner": "ocus40",
+      "filename": "scanner_virchow2_gt450_to_ocus40.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "vs200",
+      "target_scanner": "at2",
+      "filename": "scanner_virchow2_vs200_to_at2.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "vs200",
+      "target_scanner": "gt450",
+      "filename": "scanner_virchow2_vs200_to_gt450.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "vs200",
+      "target_scanner": "ocus40",
+      "filename": "scanner_virchow2_vs200_to_ocus40.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "ocus40",
+      "target_scanner": "at2",
+      "filename": "scanner_virchow2_ocus40_to_at2.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "ocus40",
+      "target_scanner": "gt450",
+      "filename": "scanner_virchow2_ocus40_to_gt450.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "virchow2",
+      "source_scanner": "ocus40",
+      "target_scanner": "vs200",
+      "filename": "scanner_virchow2_ocus40_to_vs200.pt",
+      "input_dim": 2560,
+      "output_dim": 2560
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "at2",
+      "target_scanner": "gt450",
+      "filename": "scanner_hoptimus0_at2_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "at2",
+      "target_scanner": "vs200",
+      "filename": "scanner_hoptimus0_at2_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "at2",
+      "target_scanner": "ocus40",
+      "filename": "scanner_hoptimus0_at2_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "gt450",
+      "target_scanner": "at2",
+      "filename": "scanner_hoptimus0_gt450_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "gt450",
+      "target_scanner": "vs200",
+      "filename": "scanner_hoptimus0_gt450_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "gt450",
+      "target_scanner": "ocus40",
+      "filename": "scanner_hoptimus0_gt450_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "vs200",
+      "target_scanner": "at2",
+      "filename": "scanner_hoptimus0_vs200_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "vs200",
+      "target_scanner": "gt450",
+      "filename": "scanner_hoptimus0_vs200_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "vs200",
+      "target_scanner": "ocus40",
+      "filename": "scanner_hoptimus0_vs200_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "ocus40",
+      "target_scanner": "at2",
+      "filename": "scanner_hoptimus0_ocus40_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "ocus40",
+      "target_scanner": "gt450",
+      "filename": "scanner_hoptimus0_ocus40_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "hoptimus0",
+      "source_scanner": "ocus40",
+      "target_scanner": "vs200",
+      "filename": "scanner_hoptimus0_ocus40_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "at2",
+      "target_scanner": "gt450",
+      "filename": "scanner_gigapath_at2_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "at2",
+      "target_scanner": "vs200",
+      "filename": "scanner_gigapath_at2_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "at2",
+      "target_scanner": "ocus40",
+      "filename": "scanner_gigapath_at2_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "gt450",
+      "target_scanner": "at2",
+      "filename": "scanner_gigapath_gt450_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "gt450",
+      "target_scanner": "vs200",
+      "filename": "scanner_gigapath_gt450_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "gt450",
+      "target_scanner": "ocus40",
+      "filename": "scanner_gigapath_gt450_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "vs200",
+      "target_scanner": "at2",
+      "filename": "scanner_gigapath_vs200_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "vs200",
+      "target_scanner": "gt450",
+      "filename": "scanner_gigapath_vs200_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "vs200",
+      "target_scanner": "ocus40",
+      "filename": "scanner_gigapath_vs200_to_ocus40.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "ocus40",
+      "target_scanner": "at2",
+      "filename": "scanner_gigapath_ocus40_to_at2.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "ocus40",
+      "target_scanner": "gt450",
+      "filename": "scanner_gigapath_ocus40_to_gt450.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "scanner",
+      "foundation_model": "gigapath",
+      "source_scanner": "ocus40",
+      "target_scanner": "vs200",
+      "filename": "scanner_gigapath_ocus40_to_vs200.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "conch",
+      "target_model": "uni",
+      "filename": "foundation_model_at2_conch_to_uni.pt",
+      "input_dim": 512,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "conch",
+      "target_model": "virchow2",
+      "filename": "foundation_model_at2_conch_to_virchow2.pt",
+      "input_dim": 512,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "conch",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_at2_conch_to_hoptimus0.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "conch",
+      "target_model": "gigapath",
+      "filename": "foundation_model_at2_conch_to_gigapath.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "uni",
+      "target_model": "conch",
+      "filename": "foundation_model_at2_uni_to_conch.pt",
+      "input_dim": 1024,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "uni",
+      "target_model": "virchow2",
+      "filename": "foundation_model_at2_uni_to_virchow2.pt",
+      "input_dim": 1024,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "uni",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_at2_uni_to_hoptimus0.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "uni",
+      "target_model": "gigapath",
+      "filename": "foundation_model_at2_uni_to_gigapath.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "virchow2",
+      "target_model": "conch",
+      "filename": "foundation_model_at2_virchow2_to_conch.pt",
+      "input_dim": 2560,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "virchow2",
+      "target_model": "uni",
+      "filename": "foundation_model_at2_virchow2_to_uni.pt",
+      "input_dim": 2560,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "virchow2",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_at2_virchow2_to_hoptimus0.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "virchow2",
+      "target_model": "gigapath",
+      "filename": "foundation_model_at2_virchow2_to_gigapath.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "hoptimus0",
+      "target_model": "conch",
+      "filename": "foundation_model_at2_hoptimus0_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "hoptimus0",
+      "target_model": "uni",
+      "filename": "foundation_model_at2_hoptimus0_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "hoptimus0",
+      "target_model": "virchow2",
+      "filename": "foundation_model_at2_hoptimus0_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "hoptimus0",
+      "target_model": "gigapath",
+      "filename": "foundation_model_at2_hoptimus0_to_gigapath.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "gigapath",
+      "target_model": "conch",
+      "filename": "foundation_model_at2_gigapath_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "gigapath",
+      "target_model": "uni",
+      "filename": "foundation_model_at2_gigapath_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "gigapath",
+      "target_model": "virchow2",
+      "filename": "foundation_model_at2_gigapath_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "at2",
+      "source_model": "gigapath",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_at2_gigapath_to_hoptimus0.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "conch",
+      "target_model": "uni",
+      "filename": "foundation_model_gt450_conch_to_uni.pt",
+      "input_dim": 512,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "conch",
+      "target_model": "virchow2",
+      "filename": "foundation_model_gt450_conch_to_virchow2.pt",
+      "input_dim": 512,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "conch",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_gt450_conch_to_hoptimus0.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "conch",
+      "target_model": "gigapath",
+      "filename": "foundation_model_gt450_conch_to_gigapath.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "uni",
+      "target_model": "conch",
+      "filename": "foundation_model_gt450_uni_to_conch.pt",
+      "input_dim": 1024,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "uni",
+      "target_model": "virchow2",
+      "filename": "foundation_model_gt450_uni_to_virchow2.pt",
+      "input_dim": 1024,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "uni",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_gt450_uni_to_hoptimus0.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "uni",
+      "target_model": "gigapath",
+      "filename": "foundation_model_gt450_uni_to_gigapath.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "virchow2",
+      "target_model": "conch",
+      "filename": "foundation_model_gt450_virchow2_to_conch.pt",
+      "input_dim": 2560,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "virchow2",
+      "target_model": "uni",
+      "filename": "foundation_model_gt450_virchow2_to_uni.pt",
+      "input_dim": 2560,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "virchow2",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_gt450_virchow2_to_hoptimus0.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "virchow2",
+      "target_model": "gigapath",
+      "filename": "foundation_model_gt450_virchow2_to_gigapath.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "hoptimus0",
+      "target_model": "conch",
+      "filename": "foundation_model_gt450_hoptimus0_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "hoptimus0",
+      "target_model": "uni",
+      "filename": "foundation_model_gt450_hoptimus0_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "hoptimus0",
+      "target_model": "virchow2",
+      "filename": "foundation_model_gt450_hoptimus0_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "hoptimus0",
+      "target_model": "gigapath",
+      "filename": "foundation_model_gt450_hoptimus0_to_gigapath.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "gigapath",
+      "target_model": "conch",
+      "filename": "foundation_model_gt450_gigapath_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "gigapath",
+      "target_model": "uni",
+      "filename": "foundation_model_gt450_gigapath_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "gigapath",
+      "target_model": "virchow2",
+      "filename": "foundation_model_gt450_gigapath_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "gt450",
+      "source_model": "gigapath",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_gt450_gigapath_to_hoptimus0.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "conch",
+      "target_model": "uni",
+      "filename": "foundation_model_vs200_conch_to_uni.pt",
+      "input_dim": 512,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "conch",
+      "target_model": "virchow2",
+      "filename": "foundation_model_vs200_conch_to_virchow2.pt",
+      "input_dim": 512,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "conch",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_vs200_conch_to_hoptimus0.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "conch",
+      "target_model": "gigapath",
+      "filename": "foundation_model_vs200_conch_to_gigapath.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "uni",
+      "target_model": "conch",
+      "filename": "foundation_model_vs200_uni_to_conch.pt",
+      "input_dim": 1024,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "uni",
+      "target_model": "virchow2",
+      "filename": "foundation_model_vs200_uni_to_virchow2.pt",
+      "input_dim": 1024,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "uni",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_vs200_uni_to_hoptimus0.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "uni",
+      "target_model": "gigapath",
+      "filename": "foundation_model_vs200_uni_to_gigapath.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "virchow2",
+      "target_model": "conch",
+      "filename": "foundation_model_vs200_virchow2_to_conch.pt",
+      "input_dim": 2560,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "virchow2",
+      "target_model": "uni",
+      "filename": "foundation_model_vs200_virchow2_to_uni.pt",
+      "input_dim": 2560,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "virchow2",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_vs200_virchow2_to_hoptimus0.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "virchow2",
+      "target_model": "gigapath",
+      "filename": "foundation_model_vs200_virchow2_to_gigapath.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "hoptimus0",
+      "target_model": "conch",
+      "filename": "foundation_model_vs200_hoptimus0_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "hoptimus0",
+      "target_model": "uni",
+      "filename": "foundation_model_vs200_hoptimus0_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "hoptimus0",
+      "target_model": "virchow2",
+      "filename": "foundation_model_vs200_hoptimus0_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "hoptimus0",
+      "target_model": "gigapath",
+      "filename": "foundation_model_vs200_hoptimus0_to_gigapath.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "gigapath",
+      "target_model": "conch",
+      "filename": "foundation_model_vs200_gigapath_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "gigapath",
+      "target_model": "uni",
+      "filename": "foundation_model_vs200_gigapath_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "gigapath",
+      "target_model": "virchow2",
+      "filename": "foundation_model_vs200_gigapath_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "vs200",
+      "source_model": "gigapath",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_vs200_gigapath_to_hoptimus0.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "conch",
+      "target_model": "uni",
+      "filename": "foundation_model_ocus40_conch_to_uni.pt",
+      "input_dim": 512,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "conch",
+      "target_model": "virchow2",
+      "filename": "foundation_model_ocus40_conch_to_virchow2.pt",
+      "input_dim": 512,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "conch",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_ocus40_conch_to_hoptimus0.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "conch",
+      "target_model": "gigapath",
+      "filename": "foundation_model_ocus40_conch_to_gigapath.pt",
+      "input_dim": 512,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "uni",
+      "target_model": "conch",
+      "filename": "foundation_model_ocus40_uni_to_conch.pt",
+      "input_dim": 1024,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "uni",
+      "target_model": "virchow2",
+      "filename": "foundation_model_ocus40_uni_to_virchow2.pt",
+      "input_dim": 1024,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "uni",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_ocus40_uni_to_hoptimus0.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "uni",
+      "target_model": "gigapath",
+      "filename": "foundation_model_ocus40_uni_to_gigapath.pt",
+      "input_dim": 1024,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "virchow2",
+      "target_model": "conch",
+      "filename": "foundation_model_ocus40_virchow2_to_conch.pt",
+      "input_dim": 2560,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "virchow2",
+      "target_model": "uni",
+      "filename": "foundation_model_ocus40_virchow2_to_uni.pt",
+      "input_dim": 2560,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "virchow2",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_ocus40_virchow2_to_hoptimus0.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "virchow2",
+      "target_model": "gigapath",
+      "filename": "foundation_model_ocus40_virchow2_to_gigapath.pt",
+      "input_dim": 2560,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "hoptimus0",
+      "target_model": "conch",
+      "filename": "foundation_model_ocus40_hoptimus0_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "hoptimus0",
+      "target_model": "uni",
+      "filename": "foundation_model_ocus40_hoptimus0_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "hoptimus0",
+      "target_model": "virchow2",
+      "filename": "foundation_model_ocus40_hoptimus0_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "hoptimus0",
+      "target_model": "gigapath",
+      "filename": "foundation_model_ocus40_hoptimus0_to_gigapath.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "gigapath",
+      "target_model": "conch",
+      "filename": "foundation_model_ocus40_gigapath_to_conch.pt",
+      "input_dim": 1536,
+      "output_dim": 512
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "gigapath",
+      "target_model": "uni",
+      "filename": "foundation_model_ocus40_gigapath_to_uni.pt",
+      "input_dim": 1536,
+      "output_dim": 1024
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "gigapath",
+      "target_model": "virchow2",
+      "filename": "foundation_model_ocus40_gigapath_to_virchow2.pt",
+      "input_dim": 1536,
+      "output_dim": 2560
+    },
+    {
+      "type": "foundation_model",
+      "scanner": "ocus40",
+      "source_model": "gigapath",
+      "target_model": "hoptimus0",
+      "filename": "foundation_model_ocus40_gigapath_to_hoptimus0.pt",
+      "input_dim": 1536,
+      "output_dim": 1536
+    },
+    {
+      "type": "field_strength",
+      "source_field_strength": "1p5t",
+      "target_field_strength": "3t",
+      "filename": "field_strength_1p5t_to_3t.pt",
+      "input_dim": 768,
+      "output_dim": 768
+    },
+    {
+      "type": "field_strength",
+      "source_field_strength": "3t",
+      "target_field_strength": "1p5t",
+      "filename": "field_strength_3t_to_1p5t.pt",
+      "input_dim": 768,
+      "output_dim": 768
+    }
+  ]
+}
